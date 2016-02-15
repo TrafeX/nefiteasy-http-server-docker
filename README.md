@@ -16,7 +16,7 @@ Run
 
 Usage
 -----
-See the [List of endpoints](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints) and prefix the urls with '/bridge':
+See the [List of endpoints](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints) and prefix the urls with `/bridge`:
 
     curl http://localhost:3000/bridge/ecus/rrc/uiStatus
 
