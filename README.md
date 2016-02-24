@@ -4,6 +4,9 @@ Nefit Easy HTTP server Docker container
 Runs the Nefit Easy HTTP server in a Docker container for easy deploying.
 
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/trafex/nefiteasy-http-server.svg)](https://hub.docker.com/r/trafex/nefiteasy-http-server/)
+
+
 Build (or use the Docker Hub)
 -----------------------------
 
