@@ -23,6 +23,10 @@ See the [List of endpoints](https://github.com/robertklep/nefit-easy-core/wiki/L
 
     curl http://localhost:3000/bridge/ecus/rrc/uiStatus
 
+Or use the higher-level [commands API](https://github.com/robertklep/nefit-easy-http-server#commands-api), prefixed with `/api`:
+
+    curl http://127.0.0.1:3000/api/status
+
 Nefit Easy
 ----------
 Communicating with the Nefit Easy is done with the [Nefit Easy™ HTTP server](https://github.com/robertklep/nefit-easy-http-server) package.
