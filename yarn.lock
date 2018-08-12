@@ -489,17 +489,17 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-nefit-easy-commands@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/nefit-easy-commands/-/nefit-easy-commands-2.0.0.tgz#45ae249689e7c63f6bdff84bba2c2fda777b1a65"
+nefit-easy-commands@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/nefit-easy-commands/-/nefit-easy-commands-2.1.0.tgz#025235f50aa51fc7d6c318220f4003ebe2522ba4"
   dependencies:
     bluebird "^3.5.1"
-    nefit-easy-core "^3.0.0"
+    nefit-easy-core "^3.1.0"
     require-all "^2.2.0"
 
-nefit-easy-core@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/nefit-easy-core/-/nefit-easy-core-3.0.0.tgz#869c9782ac416b382334d4d49daaf4e9d67b4144"
+nefit-easy-core@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/nefit-easy-core/-/nefit-easy-core-3.1.0.tgz#255628ad2bf9d0e0cb42d7ca4aca359731c45763"
   dependencies:
     "@xmpp/client" "^0.3.0"
     "@xmpp/xml" "^0.1.3"
@@ -508,9 +508,9 @@ nefit-easy-core@^3.0.0:
     promise-queue "^2.2.5"
     promise.prototype.finally "^3.1.0"
 
-nefit-easy-http-server@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/nefit-easy-http-server/-/nefit-easy-http-server-4.0.1.tgz#56cc9230d29ce6294d13e5e6d90382457bec8ca8"
+nefit-easy-http-server@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/nefit-easy-http-server/-/nefit-easy-http-server-4.1.0.tgz#bc4274cc0370b37e91efe23c9b53269d5fe180a6"
   dependencies:
     bluebird "^3.4.6"
     body-parser "^1.18.3"
@@ -518,7 +518,7 @@ nefit-easy-http-server@^4.0.1:
     docopt "^0.6.2"
     express "^4.16.3"
     morgan "^1.9.0"
-    nefit-easy-commands "^2.0.0"
+    nefit-easy-commands "^2.1.0"
 
 negotiator@0.6.1:
   version "0.6.1"
