@@ -7,7 +7,7 @@
   },
   "author": "Tim de Pater <code@trafex.nl>",
   "repository": "https://github.com/TrafeX/nefiteasy-http-server-docker",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "nefit-easy-http-server": "^5.0.2"
   }
