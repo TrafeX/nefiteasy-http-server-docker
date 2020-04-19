@@ -9,6 +9,6 @@
   "repository": "https://github.com/TrafeX/nefiteasy-http-server-docker",
   "license": "MIT",
   "dependencies": {
-    "nefit-easy-http-server": "^5.0.2"
+    "nefit-easy-http-server": "^5.0.3"
   }
 }

@@ -514,6 +514,11 @@ minimist@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
 morgan@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.0.tgz#d01fa6c65859b76fcf31b3cb53a3821a311d8051"
@@ -528,29 +533,33 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-nefit-easy-commands@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/nefit-easy-commands/-/nefit-easy-commands-3.0.2.tgz#f9c08b164755b8dce8dfb3db679aac93d2c51724"
+nefit-easy-commands@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/nefit-easy-commands/-/nefit-easy-commands-3.0.5.tgz#c4258521cb47cc367b6a33f8764057bcf6a0d73b"
+  integrity sha512-U3DW0WoykGX1/WazJImA8dto46/49emat5FO1Yo5NfCxtjwvd2oxn60iiKm0ZnwpHM14zt2+oLci+dKxNsKL6A==
   dependencies:
     bluebird "^3.5.1"
-    nefit-easy-core "^4.0.0"
+    nefit-easy-core "^4.0.1"
     require-all "^2.2.0"
 
-nefit-easy-core@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/nefit-easy-core/-/nefit-easy-core-4.0.0.tgz#2fdc76be479258a13f3efca28ca17642a3e80a11"
+nefit-easy-core@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/nefit-easy-core/-/nefit-easy-core-4.0.1.tgz#17b940b98eb349409883c5067316670669a5462e"
+  integrity sha512-/Iv+YwHo5Dxdw//lLy7CCSpn5tYfNOb5N/jLwhYg5NuVAqIrZdb4YYf4wRITrvoGId4bCxd+S6suv7SEKl+OxQ==
   dependencies:
     bluebird "^3.5.1"
     debug "^3.1.0"
     http-string-parser "0.0.5"
+    minimist "^1.2.5"
     node-xmpp-client "^3.2.0"
     promise-queue "^2.2.5"
     sasl-scram-sha-1 "^1.2.1"
     saslmechanisms "^0.1.1"
 
-nefit-easy-http-server@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/nefit-easy-http-server/-/nefit-easy-http-server-5.0.2.tgz#4bc6dc21b28e699420a63d472ce62b3f03136ba9"
+nefit-easy-http-server@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/nefit-easy-http-server/-/nefit-easy-http-server-5.0.3.tgz#5313d79d2b0d88555ab185a17274b6ecfd4364a4"
+  integrity sha512-Nnj5eN39YhTrCI+a8dLvh6hpKlPC6QcS56VSk03CUqIQj0pdLCv4HTmBMBRZ4RKfVklsCmJJqBcGVYE9KCR/oQ==
   dependencies:
     bluebird "^3.4.6"
     body-parser "^1.18.3"
@@ -558,7 +567,7 @@ nefit-easy-http-server@^5.0.2:
     docopt "^0.6.2"
     express "^4.16.3"
     morgan "^1.9.0"
-    nefit-easy-commands "^3.0.2"
+    nefit-easy-commands "^3.0.5"
 
 negotiator@0.6.1:
   version "0.6.1"
