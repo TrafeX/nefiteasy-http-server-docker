@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Runs a HTTP server to communicate with your Nefit Easy",
   "scripts": {
-    "start": "/usr/src/app/node_modules/.bin/easy-server --host=0.0.0.0"
+    "start": "easy-server --host=0.0.0.0"
   },
   "author": "Tim de Pater <code@trafex.nl>",
   "repository": "https://github.com/TrafeX/nefiteasy-http-server-docker",

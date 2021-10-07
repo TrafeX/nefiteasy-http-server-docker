@@ -7,7 +7,7 @@ Runs the Nefit Easy HTTP server in a Docker container for easy deploying.
 [![Docker Pulls](https://img.shields.io/docker/pulls/trafex/nefiteasy-http-server.svg)](https://hub.docker.com/r/trafex/nefiteasy-http-server/)
 
 
-Build (or use the Docker Hub)
+Build (or use the prebuild image on [Docker Hub](https://hub.docker.com/r/trafex/nefiteasy-http-server/))
 -----------------------------
 
     docker build -t trafex/nefiteasy-http-server .
@@ -15,7 +15,11 @@ Build (or use the Docker Hub)
 Run
 ---
 
-    docker run -d -p 3000:3000 -e "NEFIT_SERIAL_NUMBER=<serial number>" -e "NEFIT_ACCESS_KEY=<accesskey>" -e "NEFIT_PASSWORD=<password>" trafex/nefiteasy-http-server
+    docker run -d -p 3000:3000 \
+        -e "NEFIT_SERIAL_NUMBER=<serial number>" \
+        -e "NEFIT_ACCESS_KEY=<accesskey>" \
+        -e "NEFIT_PASSWORD=<password>" \
+        trafex/nefiteasy-http-server
 
 Usage
 -----
