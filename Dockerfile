@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:16-alpine
 
 LABEL Maintainer="Tim de Pater <code@trafex.nl>" \
       Description="Runs the Nefit Easy HTTP server in a Docker container for easy deploying."
